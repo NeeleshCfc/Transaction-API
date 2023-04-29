@@ -5,7 +5,7 @@
     "details": {
         "info": {
             "app": {
-                "name": "Customer API",
+                "name": "Transaction API",
                 "version": "1.0.0",
                 "description": "A sample health endpoint for Customer API"
             }
