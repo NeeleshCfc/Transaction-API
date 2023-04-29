@@ -1,31 +1,22 @@
 {
-   "data":{ 
-    "status": "UP"
-},
+    "data": {
+        "status": "UP"
+    },
     "details": {
         "info": {
             "app": {
-                "name": "Transaction API",
+                "name": "Customer API",
                 "version": "1.0.0",
-                "description": "A custom health actuator endpoint for Transaction API merging /health, /info and /metrics/http.server.request"
+                "description": "A sample health endpoint for Customer API"
             }
         },
         "metrics": {
             "http.server.requests": {
-                "count": 10,
-                "mean": {
-                    "rate": 0.050492306,
-                    "time": 198.692
-                },
-                "max": {
-                    "rate": 0.11082561,
-                    "time": 41.125
-                },
-                "duration": {
-                    "0.5": 39.742,
-                    "0.95": 41.125
-                }
+                "count": 18,
+                "time": 436.35,
+                "uri": 57
             }
         }
     }
 }
+
